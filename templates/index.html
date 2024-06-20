@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Klasifikasi Varietas Buah Raisin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{url_for('static', filename='style_index.css')}}">
+  </head>
+  <body>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="{{url_for('static', filename='img/gambar1.png')}}" alt="Image of Raisins" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Pengklasifikasian Buah Kismis</h1>
+          <h2>Dapatkan varietas buah raisin sesuai dengan kriteria</h2>
+          <a href="{{url_for('dashboard')}}" class="btn btn-success">HITUNG</a>
+          
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <div class="sec-content-div flexible center-content">
+          <h3 class="section-heading">ABOUT US</h3>
+          <img src="{{url_for('static', filename='img/url.jpg')}}" alt="A man plucking raisins from the tree" />
+          <p>
+            Kami adalah tim berpengalaman dengan pengetahuan mendalam dalam
+            klasifikasi varietas kismis. Kami memahami betapa pentingnya
+            mengetahui perbedaan antara varietas kismis besni dan kecimen, dan
+            kami siap membantu Anda membuat pilihan yang tepat.
+            <br /><br />
+            Kriteria yang kami gunakan untuk menentukan varietas kismis mencakup
+            warna, tekstur, rasa, ukuran, kandungan gula, kandungan nutrisi, dan
+            konsistensi. Kami memahami bahwa preferensi dan kebutuhan setiap
+            individu dapat berbeda, itulah sebabnya kami menyediakan panduan
+            yang komprehensif untuk membantu Anda memilih varietas kismis yang
+            paling sesuai.
+            <br /><br />
+            Dengan informasi yang kami sediakan, Anda dapat membuat keputusan
+            yang terinformasi dan memilih varietas kismis yang memenuhi selera
+            Anda. Jelajahi situs kami untuk mendapatkan panduan lebih lanjut
+            tentang pengklasifikasian kismis dan temukan varietas yang sempurna
+            untuk Anda!
+            </p>
+            </div>
+            </section>
+            <section id="varieties" class="sec-padding">
+              <div class="sec-content-div flexible-1">
+                <h3 class="section-heading">VARIETIES</h3>
+                <div class="flex-container">
+                  <div class="besni-column">
+                    <div class="tile besni-tile">
+                      <div class="content">
+                        <h2>BESNI</h2>
+                        <img src="{{url_for('static', filename='img/besni.png')}}" alt="photo of amber raisins"/>
+                        <p>
+                          Varietas besni berasal dari Turki dan dikenal dengan warnanya yang hijau kekuningan atau hijau muda. Ukurannya cenderung lebih besar dibandingkan varietas kecimen, dengan tekstur yang lebih lembut dan rasa yang lebih manis. Kandungan gula pada varietas besni juga lebih tinggi, serta kaya akan serat, vitamin C, zat besi, dan kalium.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kecimen-column">
+                    <div class="tile kecimen-tile">
+                      <div class="content">
+                        <h2>KECIMEN</h2>
+                        <img src="{{url_for('static', filename='img/kecimen.png')}}" alt="photo of Maharaja raisins" />
+                        <p>
+                          Varietas ini memiliki warna hijau muda atau hijau terang dengan ukuran yang lebih kecil hingga sedang. Teksturnya cenderung lebih padat dan rasanya sedikit lebih asam dibandingkan varietas besni. Meskipun kandungan gulanya lebih rendah, varietas kecimen kaya akan serat, vitamin K, tembaga, dan mangan.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </main>
+              </body>
+            </html>

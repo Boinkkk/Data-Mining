@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+        :root {
+            font-size: 10px;
+            font-family: "Open Sans", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f7e9d7;
+            color: #333;
+        }
+        #header {
+            height: max-content;
+            font-family: "Montserrat", sans-serif;
+            width: 70%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px 0;
+            position: sticky;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 800px) {
+            #header {
+                text-align: center;
+                height: auto;
+            }
+        }
+        .header-content-div {
+            max-width: 100px;
+            width: auto;
+            margin: 0 auto;
+        }
+        @media (max-width: 991px) {
+            .header-content-div {
+                max-width: 100px;
+            }
+        }
+        #header-img {
+            height: 50px;
+            width: auto;
+        }
+        @media (max-width: 800px) {
+            #header-img {
+                height: 40px;
+            }
+        }
+        nav {
+            position: relative;
+            top: 8px;
+            float: right;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 15px 0;
+        }
+        @media (max-width: 800px) {
+            nav {
+                position: static;
+                float: none;
+                font-size: 14px;
+                padding: 5px 10px;
+            }
+        }
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            margin: 0 5px;
+            padding: 0 6px;
+            transition: border-bottom 0.2s;
+        }
+        @media (max-width: 475px) {
+            .nav-link {
+                margin: 0 2px;
+                padding: 0 2px;
+                font-size: 12px;
+            }
+        }
+
+        .flexible {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding-top: 120px; /* Mengubah padding-top dari 12rem menjadi 120px */
+            padding-bottom: 50px;
+        }
+        .home-sec {
+            font-family: "Montserrat", sans-serif;
+            background-color: white;
+            text-align: start;
+            width: 80%;
+            height: auto;
+            margin: 48px auto; /* Mengubah margin dari 5rem menjadi 48px */
+            justify-content: start;
+            max-width: 1520px; /* Mengubah max-width dari 95rem menjadi 1520px */
+            color: #333;
+            padding: 48px 80px; /* Mengubah padding dari 3rem 5rem menjadi 48px 80px */
+            border-radius: 16px; /* Mengubah border-radius dari 1rem menjadi 16px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+        @media (max-width: 800px) {
+            .home-sec {
+                flex-flow: column wrap;
+                max-width: 100%;
+                padding: 20px; /* Mengubah padding dari 2rem menjadi 20px */
+            }
+        }
+        .eye-grabber {
+            flex: 1;
+            padding: 0 20px;
+        }
+        @media (max-width: 800px) {
+            .eye-grabber {
+                max-width: max-content;
+                padding-bottom: 80px; /* Mengubah padding-bottom dari 8rem menjadi 80px */
+            }
+        }
+        .eye-grabber h1 {
+            font-size: 50px;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+        .eye-grabber h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #666;
+        }
+        .eye-grabber-img {
+            flex: 1;
+        }
+        @media (max-width: 800px) {
+            .eye-grabber-img {
+                width: 100%;
+            }
+        }
+        .eye-grabber-img img {
+            max-width: 100%;
+            border-radius: 16px; /* Mengubah border-radius dari 1rem menjadi 16px */
+        }
+        .btn {
+            border: none;
+            font-size: 20px;
+            border-radius: 4px;
+            padding: 15px 30px;
+            background-color: #e23d3d;
+            color: #fafafa;
+            outline: 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            transition: all 0.2s;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #f84848;
+            cursor: pointer;
+        }
+        .btn:active {
+            transform: scale(0.9);
+        }
+        .section-heading {
+            font-size: 30px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0;
+            padding: 30px 0 20px 0;
+            text-align: center;
+        }
+        .sec-content-div {
+          font-family: "Montserrat", sans-serif;
+            background-color: rgba(255, 255, 255, 0.9);
+            text-align: start;
+            width: 80%;
+            height: auto;
+            margin: 48px auto; /* Mengubah margin dari 5rem menjadi 48px */
+            justify-content: start;
+            max-width: 1520px; /* Mengubah max-width dari 95rem menjadi 1520px */
+            color: #333;
+            padding: 48px 80px; /* Mengubah padding dari 3rem 5rem menjadi 48px 80px */
+            border-radius: 16px; /* Mengubah border-radius dari 1rem menjadi 16px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);;
+        }
+        .sec-padding {
+            padding: 0px 0;
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        #about p {
+            width: 90%;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        #about img {
+            width: 50%;
+            margin-top: 10px; /* Menambah margin-top menjadi 20px */
+            border-radius: 16px; /* Mengubah border-radius dari 1rem menjadi 16px */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+        .flex-container {
+          display: flex;
+        }
+
+        .besni-column,
+        .kecimen-column {
+          flex: 1; /* Biarkan kolom fleksibel */
+          padding: 0 10px;
+          margin-bottom: 50px;
+        }
+
+        .tile {
+          text-align: center;
+          background-color: white;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 0 rgba(0,0,0,0.5); /* Bayangan awalnya kosong */
+          transition: box-shadow 0.3s; /* Animasi bayangan */
+        }
+
+        .tile .content {
+          text-align: center;
+
+        }
+        .tile:hover {
+          box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Bayangan saat mouse di atas */
+        }
+        .tile img {
+          width: 70%;
+          display: block;
+          margin: 0 auto;
+          align-items: center;
+        }
+        .tile h2 {
+          font-size: 24px;
+          margin-bottom: 10px;
+          align-items: center;
+        }
+
+        .tile p {
+          font-size: 18px;
+        }
